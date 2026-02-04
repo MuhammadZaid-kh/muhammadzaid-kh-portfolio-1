@@ -20,4 +20,5 @@ This project reflects my learning journey from platforms like W3Schools, MDN, an
 
 ---
 [Open Project](github.com/MuhammadZaid-kh/muhammadzaid-kh-portfolio-1)
+
 Developed by [Muhammad Zaid](https://github.com/muhammadzaid-kh)
