@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <link href="icon.png" rel="icon">
+    <title>My first HTML & CSS portfolio project</title>
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <meta name="author" content="Muhammad Zaid">
+    <meta name="description" content="Discover My portfolio as My Introduction Page. Developed by Muhammad Zaid (MuhammadZaid-kh).">
+    <meta name="keywords" content="portfolio, github, muhammadzaid-kh github, zaid-kh github, muhammad zaid, muhammad, zaid, zaid kh, zaid-kh, muhammad zaid kh portfolio, zaid kh portfolio 1, portfolio #1, github muhammad zaid kh portfolio 1, portfolio1">
+    <meta name="robots" content="index, follow">
+    <!-- css -->
+    <style>
+    .right {
+  animation: rightIn 5s ease;
+}
+
+@keyframes rightIn {
+  from {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.left {
+  animation: leftIn 5s ease;
+}
+
+@keyframes leftIn {
+  from {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+a{color: white;}
+
+a{
+    text-decoration: none;
+}
+
+video{
+    padding: 16px;
+    margin: 20px;
+    border: 2px solid green;
+    border-radius: 20px;
+}
+</style>
+</head>
+<body loading="lazy">
+    <header>
+        <nav>
+            <a id="#">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact Us</a>
+            <a href="#my-skill">My Skills</a>
+        </nav>
+    </header><br>
+    <!-- Main -->
+    <main>
+        <!-- Section 1-->
+        <section>
+    <img id="img0" src="photo.jpg" width="400">
+    <h1>Introduction</h1>
+    <hr>
+    <p>My name is Muhammad Zaid. I'm a dedicated beginner in web development actively. I am learning the fundamentals of front-end development. I am currently mastering HTML and CSS to create well-structured and visually appealing web pages. With a strong interest in building websites from the ground up, I want to  committed to developing his skills step by step, aiming to become proficient in creating responsive and user-friendly web interfaces. I am current learning journey reflects his passion for web technologies and  determination to grow as a developer.</p><br>
+    
+    <video width="250px" autoplay muted loop>
+        <source src="left.mp4" type="video/mp4">Your Browser Doesn't Support Video!</source></video>
+        
+        <video width="250px" autoplay muted loop>
+        <source src="right.mp4" type="video/mp4">Your Browser Doesn't Support Video!</source></video>
+        <br>
+        <video width="250px" autoplay muted loop>
+        <source src="up.mp4" type="video/mp4">Your Browser Doesn't Support Video!</source></video>
+        
+        <video width="250px" autoplay muted loop>
+        <source src="down.mp4" type="video/mp4">Your Browser Doesn't Support Video!</source>
+    </video>
+    </section>
+    <!-- Section 2-->
+   <section>
+       <h3>My Gallery</h3>
+       <hr>
+       <div>
+       <img class="circle" src="img7.jpg" width="200" loading="lazy" alt="Image of Muhammad Zaid">
+       <img class="circle" src="img2.jpg" width="200" loading="lazy" alt="Image of Muhammad Zaid">
+       <img class="circle" src="img1.jpg" width="200" loading="lazy" alt="Image of Muhammad Zaid">
+       <br>
+       <img src="img4.jpg" width="200" loading="lazy" alt="Image of Muhammad Zaid">
+       <img src="img5.jpg" width="200" loading="lazy" alt="Image of Muhammad Zaid">
+       <img src="img6.jpg" width="200" loading="lazy" alt="Image of Muhammad Zaid">
+       </div>
+       
+   </section>
+    
+    <!-- Section 3-->
+    <section id="sec3">
+        <h3>My Learning Journey</h3>
+        <hr>
+        <a href="https://www.w3schools.com/" rel="_black" rel="noopener noreferrer">
+        <h4>W3School</h4>
+        </a>
+        <p>In 15 December 2025, I am start HTML from W3School. This is a best website for bignner, and I am so happy there from learned. I was completed HTML in jus 15 days.</p>
+        
+        <a href="https://developer.mozilla.org/en-US/" rel="_black" rel="noopener noreferrer">
+        <h4>MDN Web Docs</h4>
+        </a>
+        <p>The MDN Web Docs by (Mozilla) is a very deep learning platform for become a advance stack developers. In this site has deep tutorials of HTML5, CSS, JavaScript and others, I'm learning consistent now. And I hope I will make a full stack & advance developer.</p>
+        
+        <a href="https://www.freecodecamp.org/" rel="_black" rel="noopener noreferrer">
+        <h4>freeCodeCamp</h4>
+        </a>
+        <p>Freecodecamp is a learning platform that provide certificates. That's certificates are high demanded for freelancers. On Freelancer, Upwork & Fiverr , clients are attracted by freecodecamp certificate and hire them. Most Freelancers are mention certificates on his portfolio.</p>
+        
+        <table>
+            <caption>Journey Table</caption>
+            <thead>
+                <tr>
+                    <th>Website</th>
+                    <th>Feature</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+                <tr>
+                   <td>W3School</td>
+                   <td>Bignner friendly</td>
+                   <td>In 15 December 2025, I am start HTML from W3School. This is a best website for bignner, and I am so happy there from learned. I was completed HTML in jus 15 days.</td> 
+                </tr>
+                
+                <tr id="tr2">
+                    <td>MDN Web Docs</td>
+                    <td>A simple readable blog site for deep learning students</td>
+                    <td>The MDN Web Docs by (Mozilla) is a very deep learning platform for become a advance stack developers. In this site has deep tutorials of HTML5, CSS, JavaScript and others, I'm learning consistent now. And I hope I will make a full stack & advance developer.</td>
+                </tr>
+                
+                <tr>
+                    <td>freeCodeCamp</td>
+                    <td>Provide high demanded certificates.</td>
+                    <td>Freecodecamp is a learning platform that provide certificates. That's certificates are high demanded for freelancers. On Freelancer, Upwork & Fiverr , clients are attracted by freecodecamp certificate and hire them. Most Freelancers are mention certificates on his portfolio.</td>
+                </tr>
+            </tbody>
+            
+            <tfoot>
+                <tr>
+                    <td colspan="2">Overall Best</td>
+                    <td>freeCodeCamp</td>
+                    
+                </tr>
+            </tfoot>
+            
+        </table>
+    </section>
+    
+    <!-- section 4-->
+    <section>
+        <h3>My Favorites</h3>
+        <hr>
+        <div id="fav1" class="left">
+            <strong class="str">Colors</strong>
+            <ul class="left">
+                <li>Green</li>
+                <li>Blue</li>
+                <li>Black</li>
+            </ul>
+        </div>
+        
+        <div id="fav2" class="right">
+            <strong class="str">Food</strong>
+            <ul class="right">
+                <li>Tea</li>
+                <li>Burger</li>
+                <li>Pizza</li>
+            </ul>
+        </div>
+        
+        <div id="fav3" class="left">
+            <strong class="str">Clothes</strong>
+            <ul class="left">
+                <li>Libas (salwar & qamees)</li>
+                <li>Jean & shirt</li>
+                <li>Sports Dress</li>
+            </ul>
+        </div>
+        
+        <div id="fav4" class="right">
+            <strong class="str">Games</strong>
+            <ul class="right">
+                <li>Wali Ball</li>
+                <li>Cricket</li>
+                <li>Foot Ball</li>
+            </ul>
+        </div>
+        
+    
+        
+    </section>
+    
+    
+    <section>
+        <h3 id="about">About Me</h3>
+        <hr>
+        <p class="right" style="text-align: justify;">My name is Muhammad Zaid, and I am a passionate aspiring Web Developer currently on a journey to master the art of creating digital experiences. My fascination with how the internet works led me to dive deep into the world of coding, starting with the core building blocks of the web. Having successfully mastered HTML, I have built a solid foundation in structuring content that is both semantic and accessible.
+        </p>
+        <p class="left" style="text-align: justify; background-color: #f0f0f0;">My primary goal is to become a Professional Web Developer, capable of turning complex ideas into functional, user-friendly websites. I believe that a great developer is not just someone who writes code, but someone who solves problems and creates value for users. This vision drives me to spend hours every day refining my skills and exploring new technologies that push the boundaries of what is possible online.
+To achieve my goals, I have adopted a modern and proactive approach to learning. I utilize a variety of online platforms and websites to stay updated with industry standards. By following expert documentation and interactive tutorials, I ensure that my coding practices are up-to-date and align with the best practices used by developers globally.</p>
+
+<p class="right" style="text-align: justify;">YouTube has been an invaluable mentor in my journey. It allows me to learn from world-class developers through visual demonstrations and real-world projects. From understanding layout design to debugging complex issues, these video resources have helped me bridge the gap between theoretical knowledge and practical application, allowing me to build projects with confidence.
+In addition to traditional resources, I actively leverage Artificial Intelligence (AI) to accelerate my learning curve. Using AI tools helps me understand complex concepts more clearly, optimize my code, and explore innovative ways to solve development challenges. This tech-forward mindset allows me to work smarter and stay ahead in an ever-evolving digital landscape.
+</p>
+
+<p class="left" style="text-align: justify; background-color: #f0f0f0;">Currently, I am focusing my energy on mastering CSS to bring my HTML structures to life with beautiful designs and responsive layouts. My journey is fueled by a commitment to continuous growth and a desire to contribute to the tech community. I am excited to take on new challenges and transform my passion for web development into a professional career.</p>
+    </section>
+    
+    <section>
+        <h3></h3>
+        <p></p>
+    </section>
+    
+    <section>
+        <h3 id="my-skill">Skills</h3>
+        <hr>
+        <p class="right" style="text-align: justify;">My Technical Skills
+As a dedicated learner in the field of web development, I believe in building a foundation that is both strong and scalable. My technical toolkit is currently centered around the core technologies that power the modern web. I focus on writing clean, semantic, and efficient code to ensure that every project I work on is optimized for performance and user experience.
+Mastering HTML (The Architecture)
+I have achieved full proficiency in HTML (HyperText Markup Language), which I consider the backbone of any successful web project. My expertise includes working with semantic HTML5 elements, which not only help in structuring the content correctly but also play a vital role in SEO and accessibility. Understanding how to organize data, images, and links properly allows me to create a solid framework upon which beautiful designs can be built</p>
+<p class="left" style="text-align: justify; background-color: #f0f0f0;">Mastering HTML (The Architecture)
+I have achieved full proficiency in HTML <mark>(HyperText Markup Language)</mark>, which I consider the backbone of any successful web project. My expertise includes working with semantic HTML5 elements, which not only help in structuring the content correctly but also play a vital role in SEO and accessibility. Understanding how to organize data, images, and links properly allows me to create a solid framework upon which beautiful designs can be built.
+Advancing in CSS (The Aesthetics)
+Currently, I am deeply immersed in mastering CSS (Cascading Style Sheets). My goal is to transform basic HTML structures into visually stunning and highly interactive interfaces. I am learning how to control layouts, typography, and color schemes to create websites that are not just functional but also aesthetically pleasing. My focus is on understanding the CSS Box Model, positioning, and the art of making designs that adapt seamlessly to different screen sizes.</p>
+
+
+    </section>
+    
+    <section>
+        <h3 id="contact">Contact Us</h3>
+        <hr>
+        <details style="text-align: left; background-color: royalblue; color: white;">
+            <summary>Address</summary>
+            <p>Karachi, Sindh, Pakistan</p>
+        </details>
+        <details style="text-align: left; background-color: brown; color: white;">
+            <summary>Social Links</summary>
+            <div>
+                <strong>Facebook</strong>
+                <a href="https://www.facebook.com/profile.php?id=100073474484626" target="_blank" rel="noopener noreferrer">Here</a>
+            </div>
+            
+            <div>
+                <strong>Email</strong>
+                <a href="mailto: webdev.muhammadzaid@gmail.com" target="_blank" rel="noopener noreferrer">Here</a>
+            </div>
+            
+            <div>
+                <strong>GitHub</strong>
+                <a href="https://github.com/muhammadzaid-kh" target="_blank" rel="noopener noreferrer">Here</a>
+            </div>
+            
+        </details>
+        
+        <p class="right" style="text-align: justify;">Get In Touch
+Whether you have a specific project in mind, a question about my work, or just want to say hello, I would love to hear from you. Being based in the vibrant city of <strong>Karachi, Sindh, Pakistan</strong>, I am always looking for opportunities to connect with local and international clients as well as fellow developers. I believe that great communication is the first step toward building something extraordinary.
+I am highly responsive to email and check my inbox regularly. If you have a business inquiry or a collaboration proposal, feel free to reach out to me at <mark>webdev.muhammadzaid@gmail.com</mark>. I strive to respond to all professional queries within 24 hours, ensuring that we can discuss your ideas and requirements without any delay.</p>
+<p class="left" style="text-align: justify; background-color: #f0f0f0">
+For those who prefer social networking, you can find me on Facebook as Muhammad Zaid. I use my social platforms to stay connected with the tech community and share my progress. It’s a great place for informal chats or to stay updated on the latest web development trends that I am currently exploring.
+Professional networking is a key part of my growth, and I invite you to connect with me on LinkedIn. By visiting linkedin.com/in/muhammadzaid-dev, you can view my professional journey, skills, and endorsements. I am always open to discussing new technologies, job opportunities, and industry insights with professionals from all over the world.</p>
+
+<p class="right" style="text-align: justify;">If you are a developer or someone interested in the technical side of my work, you must visit my GitHub profile at <q>MuhammadZaid-kh</q>. Here, you can see the "behind the scenes" of my projects, check out my clean HTML structures, and follow my progress as I master CSS and other languages. Transparency in my code is something I take great pride in.
+I believe that every great website starts with a simple conversation. No matter where you are in the world, I am ready to bring my dedication and web development skills to your next project. Let’s collaborate and turn your digital vision into a reality!</p>
+
+    </section>
+    
+    <section>
+        <h3>Submit Your Comment</h3>
+        <hr>
+        <form action="#" method="post">
+            <fieldset style="background-color: whitesmoke;">
+                <legend>Personal Info</legend>
+                <lable for="name">Name</lable>
+                <input id="name" type="text" name="name" placeholder="Enter your name">
+                <br><br>
+                <lable for="email">Email</lable>
+                <input id="email" type="email" name="email" placeholder="Enter your email">
+                <br><br>
+                <lable for="msg">Message</lable>
+                <textarea id="msg" name="msg" placeholder="Enter your massage"></textarea>
+                <br>
+                <button type="submit" style="background-color: gold;">Send</button>
+            </fieldset>
+        </form>
+        <hr style="width: 70%; height: 5px; background-color: green;">
+        <p>This project made on 2 Fab 2026.</p>
+        
+    </section>
+   </main> 
+   
+   <!-- Footer -->
+   <hr>
+   <footer>
+       <br>
+       <nav>
+            <a id="#">Home</a>
+            <a id="about">About Us</a>
+            <a id="contact">Contact Us</a>
+            <a id="my-skill">My Skills</a>
+        </nav>
+        
+       <p id="fp">&copy; Copyright 2026 - Muhammad Zaid. All rights reserved.</p>
+   </footer>
+</body>
+</html>

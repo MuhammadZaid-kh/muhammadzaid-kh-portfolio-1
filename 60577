@@ -1,0 +1,45 @@
+ body {font-family: Arial;
+        text-align: center;
+        
+        }
+        h3 {text-align: center;}
+        
+        
+        header {background-color: lightblue;
+        border: 1px solid black;}
+        
+        #img0 {border-radius: 50%; border: 5px solid lightblue;}
+        
+        nav a {color: black;
+        margin-left: 12px;}
+        
+        #sec3 {text-align: left;}
+        #sec3 p {text-align: justify;}
+        
+        .circle {border-radius: 50%; border: 1px solid black; border-collapse: collapse; margin-bottom: 20px;}
+        
+        table, th, td {border: 1px solid black; border-collapse: collapse;}
+        th {background-color: black; color: white;}
+        
+        tfoot {background-color: tan; text-align: center;}
+        
+        
+        #tr2 {background-color: #F0F0F0;}
+        
+        caption {border: 1px solid black;}
+        
+        #fav1 {background-color: yellow; width: 80%; text-align: left; margin-left: 20%; border: 1px solid black; margin-bottom: 40px;}
+        
+        #fav2 {background-color: lightgray; width: 80%; text-align: left; border: 1px solid black; margin-bottom: 40px;}
+        
+        #fav3 {background-color: lightgreen; width: 80%; text-align: left; margin-left: 20%; border: 1px solid black; margin-bottom: 40px;}
+        
+       #fav4 {background-color: #95ccff; width: 80%; text-align: left; border: 1px solid black; margin-bottom: 40px;} 
+       
+       .str {margin-left: 20px;}
+       
+       footer {background-color: black; color: white;height: 100px; color: white;}
+       
+       footer a {color: white; line-height: 12px; height: 12px;}
+       
+       #fp {height: 10px; line-height:50px;}
